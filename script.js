@@ -33,14 +33,14 @@ console.log("Anni mancanti" + missingYears);
 
 var canzoni = {
     canzone1 : {
-      titolo: 'Stairway to Heaven',
-      nomeCantante: 'Led Zeppelin',
-      anno: '1971'
+      titolo: 'Rockstar',
+      nomeCantante: 'Danien & Theo',
+      anno: '2016'
     },
     canzone2 : {
-      titolo: 'Wish you were here',
-      nomeCantante: 'Pink Floyd',
-      anno: '1975'
+      titolo: 'BRNBQ',
+      nomeCantante: 'Sfera Ebbasta',
+      anno: '2015'
     }
   }
   console.log(canzoni);
@@ -48,7 +48,7 @@ var canzoni = {
   var canzoneAggiunta = {
     canzone3 : {
       titolo : prompt('Inserisci il titolo'),
-      nomeCantante: prompt('Inserisci il titolo'),
+      nomeCantante: prompt('Inserisci il nome del cantante'),
       anno: prompt('Inserisci l\'anno'),
     }
   }
